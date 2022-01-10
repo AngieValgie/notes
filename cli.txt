@@ -1,0 +1,85 @@
+    # comandos para crear un directorio  
+       mkdir projects
+    6  mkdir Open-build
+    8  cd Open-build
+   11  sudo apt install git
+   
+    #instalar 
+   14  git
+   15  git clone sudo apt install git
+
+    #comandos para clonar archivos a github
+   16  git clone git@github.com:open-build/eLearning.git
+   17  sudo apt install git
+   18  cd ~/.ssh && ssh-keygen
+   19  cat id_rsa.pub|xclip
+   20  sudo apt install xclip
+   21  cat id_rsa.pub|xclip
+   22  cat id_rsa.pub
+   23  git clone git@github.com:open-build/eLearning.git
+
+    #mover de una carpeta a otra
+   29  mv eLearning/ ../projects/
+   33  mv eLearning/ Open-build/
+
+   #para limpiar lo que lleve en la terminal
+   37  cd ../../
+
+   #comandos para subir archivos a github
+   76  git status
+   77  git pull origin master
+   78  git commit -m 'text changes to home page'
+   79  git config --global user.email "angierincon326@gmail.com"
+   80  git config --global user.name "Enyi"
+   81  git commit -m 'text changes to home page'
+   82  git add .
+   83  git commit -m 'text changes to home page'
+   84  git push origin master 
+   
+   89  cd .ssh
+
+   91  more id_rsa.pub
+   92  ssh root@10.125.0.3
+   93  ssh root@143.244.187.124
+   94  sudo apt update
+   95  clear
+   96  sudo apt install wget build-essential checkinistall
+   97  sudo apt install wget build-essential checkinstall
+   98  sudo wget https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz
+   99  tar xzf Python-3.10.1.tgz
+  100  clear
+  101  Python-3.10.1
+  102  cd Python-3.10.1
+  104  sudo ./configure --enable-optimizations
+  105  clear
+  106  sudo make altinstall 
+  107  python3.10 --version
+  108  python -m django --version
+       python3 -m django --version
+  
+       django-admin startproject mysite
+  
+       git clone git@github.com:AngieValgie/notes.git
+  
+    #crear archivos de texto
+       touch cli.txt
+       history > cli.txt
+
+   #abrir el archivo
+vi cli.txt 
+
+#el comando para agregar cosas al archivo, primero cd en la carpeta y el archivo
+echo "vi cli.txt" >> cli.txt
+echo "hi :v" >> cli.txt
+
+#proceso para encender el servidor
+cd projects/
+cd Open-build/
+cd ob-cms/
+python3 -m venv env
+source env/bin/activate
+python3 manage.py migrate
+python3 manage.py runserver
+git add -A .
+git commit -m my name
+git push origin main
