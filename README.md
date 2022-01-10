@@ -1,0 +1,2 @@
+# notes
+comandos frecuentes
